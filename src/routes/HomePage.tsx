@@ -1,7 +1,5 @@
-import { Link as RouterLink } from 'react-router-dom';
-import NavigationNavbarComponent from '../components/NavigationBarComponent';
-import { getCurrent } from '@tauri-apps/api/window';
 import { useState } from 'react';
+import NavigationNavbarComponent from '../components/NavigationBarComponent';
 
 export default function HomePage() {
     const [greeting, setGreeting] = useState("hello world!");
